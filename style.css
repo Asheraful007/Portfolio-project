@@ -1,0 +1,133 @@
+/* Josefin Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,500&display=swap');
+/* Inconsolata font */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Caveat:wght@600&family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hader .navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    color: navy;
+}
+.hader .navbar ul li a{
+    margin: 0px 20px;
+}
+.hader .navbar ul li a:hover{
+    background-color: #ED4C67;
+    color: white;
+    transition: 0.8s;
+    transform: scale(1.1);
+}
+.carousel-item img{
+    width: 100%;
+    height: 80vh;
+}
+.carousel-item h5{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.carousel-item p{
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+
+
+section .aboutSection .about{
+    font-size:3rem;
+    text-align: center;
+}
+section .aboutSection h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+section .aboutSection .row{
+    margin: 50px 0px;
+}
+section .aboutSection img{
+    padding: 25px;
+}
+section .aboutSection .accordion{
+    margin-top: 40px;
+}
+
+
+.servises .card-body{
+    background-color: #ED4C67;
+}
+.servises h5{
+    color:white ;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+}
+.servises .card p{
+    margin: 10px 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    color: white;
+
+}
+.servises .card i{
+    color: #ED4C67;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+.contactSection .submitSection{
+    margin-top: 20px;
+}
+.contactSection .imgSection{
+    width: 100%;
+    height: 28rem;
+    background-position: center;
+    background-size: cover;
+}
+
+section .footer{
+    width: 100%;
+    height: 272;
+    padding: 20px;
+    text-align: center;
+    background-color:black;
+}
+section .footer h3{
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer i{
+    margin-right: 15px;
+}
+.footer .iconSection{
+    color: white;
+    text-align: start;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer i,span{
+    padding-bottom: 20px;
+}
+.footer .row{
+    margin-top: 15px;
+}
+.footer img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid wheat;
+    border-radius: 50%;
+    cursor: pointer;
+}
